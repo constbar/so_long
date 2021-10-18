@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../so_long.h"
 
 static void	ft_print_helper(t_game *g, int move)
 {

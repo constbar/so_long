@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../so_long.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
 {

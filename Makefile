@@ -1,6 +1,6 @@
 NAME = so_long
 
-SRC  =	so_long.c utils1.c utils2.c utils3.c utils4.c utils5.c parsing.c draw.c control.c
+SRC  =	src/so_long.c src/utils1.c src/utils2.c src/utils3.c src/utils4.c src/utils5.c src/parsing.c src/draw.c src/control.c
 
 MLX  = -L./minilibX/ ./minilibX/libmlx.a -lm -lmlx -lX11 -lXext -lbsd
 
@@ -20,4 +20,4 @@ fclean:		clean
 
 re:	fclean all
 
-.PHONY:		all clean fclean re
+.PHONY: all clean fclean re

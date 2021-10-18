@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../so_long.h"
 
 static void	ft_get_position(t_game *g, int x, int y)
 {

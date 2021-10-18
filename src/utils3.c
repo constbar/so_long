@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../so_long.h"
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {

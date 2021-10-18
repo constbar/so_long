@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../so_long.h"
 
 static char	*ft_search(const char *s, int c)
 {

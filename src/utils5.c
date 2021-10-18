@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../so_long.h"
 
 static unsigned int	ft_to_rgb(int r, int g, int b)
 {

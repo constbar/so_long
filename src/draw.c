@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../so_long.h"
 
 void	ft_draw_game(t_game *g, int x, int y)
 {
@@ -47,7 +47,7 @@ void	ft_draw_wind(t_game *g)
 		ft_elim_bad(g, "minilibX err");
 	g->path.mlx_win = mlx_new_window(g->path.mlx_ptr, \
 	g->map.width * 64, g->map.height * 64, \
-	"help to the pirate to find freedom");
+	"help the pirate find freedom");
 	if (!g->path.mlx_win)
 		ft_elim_bad(g, "minilibX err");
 	g->path.mlx_img = mlx_new_image(g->path.mlx_ptr, \

@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../so_long.h"
 
 static void	ft_free_imgs(t_game *g)
 {

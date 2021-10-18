@@ -1,6 +1,19 @@
-#### 1. rename help TO THE pirite find THE -> make googltrancslate
-#### 2. ubuntu only
-#### 3. scrnshoot
-#### 4. in specific -> add you can change map
-#### 5. make foldrer src
-#### 6. rite about libruary
+## so_long
+
+project of 42 school where it is necessary to create a 2D game in C with the help of the minilibX graphic libruary (https://github.com/42Paris/minilibx-linux).
+
+the player has to collect the "collectibles" before he can leave the map through the exit. Also you can create your own map adhering to the rules of building a map.
+
+the goal is to join the exit with the minimum number of moves which are counted in the terminal.
+
+the project was made in accordance with the school design code standard in the C language.
+
+![](so_long.gif)
+
+### how to use
+the project will work only on linux
+```
+make
+./so_long maps/map.ber
+```
+use ``WASD`` to move. ``esc`` to close the game.
