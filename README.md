@@ -11,9 +11,9 @@ the project was made in accordance with the school design code standard in the C
 ![](so_long.gif)
 
 ### how to use
-the project will work only on linux
+the project will work only on linux.
 ```
 make
 ./so_long maps/map.ber
 ```
-use ``WASD`` to move. ``esc`` to close the game.
+use `W` `A` `S` `D` to move. `esc` to close the game.
